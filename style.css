@@ -4,8 +4,8 @@ body {
     height: 100%;
 }
 
-main {
-    background-color:  #E5E5E5;;
+main, footer {
+    background-color:  #E5E5E5;
 }
 
 a {
@@ -116,7 +116,7 @@ h1 {
 }
 
 .container1 h1 {
-    margin-top: 54px;
+    margin-top: 40px;
     margin-bottom: 130px;
 }
 
@@ -205,6 +205,12 @@ h1 {
     margin-left: 70px;
     margin-top: 120px;
     margin-bottom: -750px;
+}
+
+.pointer1:hover, .pointer2:hover, .pointer3:hover, .pointer4:hover {
+    cursor: pointer;
+    transform: scale(1.050);
+
 }
 
 .container4 h1 {
@@ -448,11 +454,12 @@ h1 {
     font-weight: normal;
     font-size: 25px;
     line-height: 30px;
+    margin-bottom: 12px;
 }
 
 .container6-7 button {
     width: 275px;
-    margin-top: 45px;
+    margin-top: 37px;
     align-items: center;
     padding: 22px 32px;
     border-radius: 7px;
@@ -530,6 +537,10 @@ h1 {
     font-size: 25px;
 }
 
+.container9 button:hover {
+    transform: scale(1.050);
+}
+
 
 .container9 h1 {
     margin-left: -30px;
@@ -549,6 +560,9 @@ h1 {
     line-height: 30px;
 }
 
+.cash-register__pic img {
+    margin-top: 85px;
+}
 
 .container10 h1 {
     font-size: 50px;
@@ -582,6 +596,7 @@ h1 {
 }
 
 .select-items {
+    margin-top: -13px;
     display: flex;
     flex-direction: column;
     width: 430px;
@@ -638,7 +653,7 @@ select {
 }
 
 .block4 img {
-    margin-top: 35px;
+    margin-top: 31px;
 }
 
 .block4 p {
@@ -662,15 +677,12 @@ select {
     margin-top: -30px;
 }
 
-.slider {
-    display: flex;
-    flex-direction: column;
-}
-
 .container11 {
+    font-family: 'Open Sans', serif;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 300px;
 }
 
 .calculation {
@@ -680,7 +692,6 @@ select {
     box-shadow: 0 0 1.0422px rgba(0, 0, 0, 0.08), 0 1.0422px 12.5065px rgba(0, 0, 0, 0.08);
     border-radius: 7.00547px;
     padding: 0 20px 65px 23px;
-    font-family: 'Open Sans', serif;
     margin-left: 248px;
 }
 
@@ -711,6 +722,10 @@ select {
     margin-left: 25px;
 }
 
+.calculation button:hover {
+    transform: scale(1.030);
+}
+
 .calculation h4 {
     font-size: 40px;
     line-height: 12px;
@@ -727,11 +742,17 @@ select {
     margin-top: 35px;
 }
 
+footer {
+    background-image: url("img/footer.svg");
+    background-size: 1550px;
+}
+
 .container12 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 100px;
+    padding-top: 200px;
+    /*background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);*/
 }
 
 .sect1 h2 {
@@ -759,6 +780,7 @@ select {
     font-family: 'Open Sans', serif;
     font-size: 25px;
     line-height: 25px;
+    border: none;
 }
 
 .container12 p {
@@ -800,8 +822,10 @@ select {
 
 .agree-icon img {
     border: black;
-    width: 44px;
-    height: 44px;
+    width: 20px;
+    height: 20px;
+    margin-top: 52px;
+    margin-right: 15px;
 }
 
 .container12 button {
@@ -811,6 +835,11 @@ select {
     height: 83px;
     background: #FFFFFF;
     border-radius: 7px;
+    border-color: #FFFFFF;
+}
+
+.container12 button:hover {
+    transform: scale(1.010);
 }
 
 .container13 {
@@ -836,6 +865,7 @@ select {
     font-size: 14px;
     line-height: 110%;
     opacity: 0.7;
+    margin-bottom: 13px;
 }
 
 .container13 a {
@@ -845,11 +875,14 @@ select {
     font-size: 30px;
     line-height: 100%;
     color: black;
+
 }
 
 .container13 hr {
     width: 294px;
     height: 1px;
+    background-color: black;
+    border: none;
 }
 
 .inform {
