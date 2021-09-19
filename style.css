@@ -38,25 +38,10 @@ h1 {
     margin: 18px 90px 0 80px;
 }
 
-
 .logo {
     padding-left: 15px;
     padding-right: 15px;
     float: left;
-}
-
-.line0 {
-    width: 60px;
-    height: 0;
-    border: 2px solid #3F3D56;
-    background-color: #3F3D56;
-    padding-left: 25px;
-}
-
-.line0-flex {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
 }
 
 .nav {
@@ -77,13 +62,20 @@ h1 {
     color: black;
 }
 
+.nav_item.main {
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 10px;
+}
+
 .nav_phone:hover {
     text-decoration: underline;
     color: #3F3D56;
+    opacity: 1;
 }
 
 .nav button:hover {
-    transform: scale(1.050);
+    opacity: 0.7;
 }
 
 .nav_phone {
@@ -126,6 +118,12 @@ h1 {
     font-size: 40px;
     line-height: 20px;
     margin-bottom: 40px;
+}
+
+ins {
+    text-decoration-color: #B4ABAB;
+    text-underline-offset: 35px;
+    text-decoration-thickness: 4px;
 }
 
 .container1 p {
