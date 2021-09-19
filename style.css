@@ -188,15 +188,60 @@ ins {
     margin-top: 26px;
 }
 
-.container3 {
+.advantages_list {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 105px;
-    opacity: 1;
+    margin-top: 115px;
 }
 
-.container3 img:hover {
-    opacity: 0.8;
+.advantage {
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    box-shadow: 0 0 0.5px rgba(0, 0, 0, 0.08), 0 0.5px 6px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 249px;
+    height: 211px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.advantage .icon {
+    margin: -40px auto auto;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background: linear-gradient(70.6deg, #35CC79 10.03%, rgba(52, 125, 85, 0.65) 139.7%);
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage p {
+    font-size: 20px;
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    margin: 7px 10px 5px 10px;
+}
+
+.advantage h5 {
+    font-size: 20px;
+    font-family: 'Open Sans', serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    display: block;
+    border-bottom: 3px solid #B4ABAB;
+    padding-bottom: 15px;
+    margin: 8px 20px 5px 20px;
+}
+
+.add h5{
+    padding-bottom: 30px;
 }
 
 .container4 {
